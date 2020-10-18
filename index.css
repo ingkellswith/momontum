@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600;700;900&display=swap");
 @import "reset.css";
 @import "styles.css";
+@import "settings.css";
 
 .form,
 .greetings {
