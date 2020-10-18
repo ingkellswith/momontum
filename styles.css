@@ -1,0 +1,110 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  color: white;
+}
+
+.js-title {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-size: 250px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.js-form input,
+.pendingTodo {
+  margin-top: 0px;
+  background: transparent;
+  border: none;
+  padding: 10px 1px;
+  width: 800px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.js-form input::placeholder,
+.pendingTodo::placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.pendingTodo::placeholder {
+  color: rgb(255, 187, 1);
+}
+
+.pendingTodo {
+  color: rgb(255, 187, 1);
+  padding: 0px 0px;
+}
+
+.js-form input {
+  margin-top: 20px;
+}
+
+.js-greetings {
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+#forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.js-weather {
+  color: rgb(255, 187, 1);
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 55px;
+  margin-bottom: 20px 0px;
+}
+
+.listName {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 0px;
+  text-align: center;
+}
+
+.pending,
+.finished {
+  font-weight: 600;
+  font-size: 40px;
+}
+.pending li,
+.finished li {
+  font-weight: 200;
+  font-size: 35px;
+  padding-left: 38px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.pending li span,
+.finished li span {
+  margin-right: 10px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0px 0px;
+  font-size: 9px;
+}
